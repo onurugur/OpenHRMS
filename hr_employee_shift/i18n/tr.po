@@ -1,0 +1,300 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr_employee_shift
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-26 06:17+0000\n"
+"PO-Revision-Date: 2024-09-26 10:20+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.5\n"
+
+#. module: hr_employee_shift
+#: model_terms:ir.ui.view,arch_db:hr_employee_shift.hr_shift_generate_view_form
+msgid "Cancel"
+msgstr "İptal"
+
+#. module: hr_employee_shift
+#: model:ir.model.fields,help:hr_employee_shift.field_resource_calendar__color
+msgid "Color"
+msgstr "Renk"
+
+#. module: hr_employee_shift
+#: model:ir.model.fields,field_description:hr_employee_shift.field_resource_calendar__color
+msgid "Color Index"
+msgstr "Renk Dizini"
+
+#. module: hr_employee_shift
+#: model:ir.model.fields,field_description:hr_employee_shift.field_hr_shift_generate__company_id
+#: model:ir.model.fields,field_description:hr_employee_shift.field_hr_shift_schedule__company_id
+#: model:ir.model.fields,help:hr_employee_shift.field_hr_shift_generate__company_id
+#: model:ir.model.fields,help:hr_employee_shift.field_hr_shift_schedule__company_id
+msgid "Company"
+msgstr "Şirket"
+
+#. module: hr_employee_shift
+#: model:ir.ui.menu,name:hr_employee_shift.shift_configuration
+msgid "Configuration"
+msgstr "Yapılandırma"
+
+#. module: hr_employee_shift
+#: model:ir.model.fields,field_description:hr_employee_shift.field_hr_shift_generate__create_uid
+#: model:ir.model.fields,field_description:hr_employee_shift.field_hr_shift_schedule__create_uid
+msgid "Created by"
+msgstr "Oluşturan"
+
+#. module: hr_employee_shift
+#: model:ir.model.fields,field_description:hr_employee_shift.field_hr_shift_generate__create_date
+#: model:ir.model.fields,field_description:hr_employee_shift.field_hr_shift_schedule__create_date
+msgid "Created on"
+msgstr "Oluşturulma tarihi"
+
+#. module: hr_employee_shift
+#: model:ir.model.fields,field_description:hr_employee_shift.field_hr_shift_schedule__start_date
+msgid "Date From"
+msgstr "Başlangıç Tarihi"
+
+#. module: hr_employee_shift
+#: model:ir.model.fields,field_description:hr_employee_shift.field_hr_shift_schedule__end_date
+msgid "Date To"
+msgstr "Bitiş Tarihi"
+
+#. module: hr_employee_shift
+#: model_terms:ir.ui.view,arch_db:hr_employee_shift.resource_calendar_view_kanban
+msgid "Delete"
+msgstr "Sil"
+
+#. module: hr_employee_shift
+#: model:ir.model.fields,field_description:hr_employee_shift.field_hr_shift_generate__hr_department
+#: model:ir.model.fields,field_description:hr_employee_shift.field_resource_calendar__hr_department
+#: model:ir.model.fields,help:hr_employee_shift.field_hr_shift_generate__hr_department
+#: model:ir.model.fields,help:hr_employee_shift.field_resource_calendar__hr_department
+msgid "Department"
+msgstr "Departman/Bölüm"
+
+#. module: hr_employee_shift
+#: model:ir.model.fields,field_description:hr_employee_shift.field_hr_shift_generate__display_name
+#: model:ir.model.fields,field_description:hr_employee_shift.field_hr_shift_schedule__display_name
+msgid "Display Name"
+msgstr "Görünen Ad"
+
+#. module: hr_employee_shift
+#: model_terms:ir.ui.view,arch_db:hr_employee_shift.resource_calendar_view_kanban
+msgid "Edit"
+msgstr "Düzenle"
+
+#. module: hr_employee_shift
+#: model:ir.model,name:hr_employee_shift.model_hr_employee
+msgid "Employee"
+msgstr "Personel"
+
+#. module: hr_employee_shift
+#: model:ir.model,name:hr_employee_shift.model_hr_contract
+msgid "Employee Contract"
+msgstr "Personel Sözleşmesi"
+
+#. module: hr_employee_shift
+#: model:ir.actions.act_window,name:hr_employee_shift.generate_schedule_action_window
+msgid "Employee Shift"
+msgstr "Çalışan Vardiyası"
+
+#. module: hr_employee_shift
+#: model:ir.model.fields,field_description:hr_employee_shift.field_hr_shift_generate__end_date
+msgid "End Date"
+msgstr "Bitiş Tarihi"
+
+#. module: hr_employee_shift
+#: model:ir.model.fields,help:hr_employee_shift.field_hr_shift_generate__end_date
+msgid "End date"
+msgstr "Bitiş Tarihi"
+
+#. module: hr_employee_shift
+#: model:ir.model.fields,help:hr_employee_shift.field_hr_shift_schedule__end_date
+msgid "Ending date for the shift"
+msgstr "Vardiyanın bitiş tarihi"
+
+#. module: hr_employee_shift
+#. odoo-python
+#: code:addons/hr_employee_shift/models/resource_calendar.py:0
+#, python-format
+msgid "Friday Morning"
+msgstr "Cuma Sabahı"
+
+#. module: hr_employee_shift
+#: model_terms:ir.ui.view,arch_db:hr_employee_shift.hr_shift_generate_view_form
+msgid "Generate"
+msgstr "Oluştur"
+
+#. module: hr_employee_shift
+#: model:ir.ui.menu,name:hr_employee_shift.menu_shift_schedule_generate_id
+msgid "Generate Schedule"
+msgstr "Program Oluştur"
+
+#. module: hr_employee_shift
+#: model:ir.model.fields,field_description:hr_employee_shift.field_hr_shift_generate__id
+#: model:ir.model.fields,field_description:hr_employee_shift.field_hr_shift_schedule__id
+msgid "ID"
+msgstr "Kimlik Numarası (ID)"
+
+#. module: hr_employee_shift
+#: model:ir.model.fields,field_description:hr_employee_shift.field_hr_shift_generate__write_uid
+#: model:ir.model.fields,field_description:hr_employee_shift.field_hr_shift_schedule__write_uid
+msgid "Last Updated by"
+msgstr "Son Güncelleyen"
+
+#. module: hr_employee_shift
+#: model:ir.model.fields,field_description:hr_employee_shift.field_hr_shift_generate__write_date
+#: model:ir.model.fields,field_description:hr_employee_shift.field_hr_shift_schedule__write_date
+msgid "Last Updated on"
+msgstr "Son Güncellenme Tarihi"
+
+#. module: hr_employee_shift
+#. odoo-python
+#: code:addons/hr_employee_shift/models/resource_calendar.py:0
+#, python-format
+msgid "Monday Morning"
+msgstr "Pazartesi Sabahı"
+
+#. module: hr_employee_shift
+#. odoo-python
+#: code:addons/hr_employee_shift/models/hr_payslip.py:0
+#, python-format
+msgid "Normal Working Days paid at 100%"
+msgstr "Normal Çalışma Günleri %100 Ödeme"
+
+#. module: hr_employee_shift
+#: model:ir.model,name:hr_employee_shift.model_hr_payslip
+msgid "Pay Slip"
+msgstr "Maaş Fişi/Bordrosu"
+
+#. module: hr_employee_shift
+#: model:ir.model.fields,field_description:hr_employee_shift.field_hr_shift_schedule__rel_hr_schedule
+msgid "Rel Hr Schedule"
+msgstr "İlgili İK Programı"
+
+#. module: hr_employee_shift
+#: model:ir.model,name:hr_employee_shift.model_resource_calendar
+msgid "Resource Working Time"
+msgstr "Kaynak Çalışma Süresi"
+
+#. module: hr_employee_shift
+#: model:ir.model.fields,field_description:hr_employee_shift.field_resource_calendar__sequence
+#: model:ir.model.fields,help:hr_employee_shift.field_resource_calendar__sequence
+msgid "Sequence"
+msgstr "Sıra/Dizi"
+
+#. module: hr_employee_shift
+#: model:ir.model.fields,field_description:hr_employee_shift.field_hr_shift_schedule__hr_shift
+#: model:ir.model.fields,help:hr_employee_shift.field_hr_shift_schedule__hr_shift
+#: model:ir.ui.menu,name:hr_employee_shift.menu_shift_schedule_generate_id_menu
+msgid "Shift"
+msgstr "Vardiya"
+
+#. module: hr_employee_shift
+#: model:ir.model.fields,field_description:hr_employee_shift.field_hr_contract__shift_schedule
+msgid "Shift Schedule"
+msgstr "Vardiya Programı"
+
+#. module: hr_employee_shift
+#: model:ir.model.fields,help:hr_employee_shift.field_hr_contract__shift_schedule
+msgid "Shift schedule"
+msgstr "Vardiya Programı"
+
+#. module: hr_employee_shift
+#: model:ir.ui.menu,name:hr_employee_shift.menu_conf_shift
+#: model:ir.ui.menu,name:hr_employee_shift.menu_shift
+msgid "Shifts"
+msgstr "Vardiyalar"
+
+#. module: hr_employee_shift
+#: model:ir.model.fields,field_description:hr_employee_shift.field_hr_shift_generate__start_date
+msgid "Start Date"
+msgstr "Başlangıç Tarihi"
+
+#. module: hr_employee_shift
+#: model:ir.model.fields,help:hr_employee_shift.field_hr_shift_generate__start_date
+msgid "Start date"
+msgstr "Başlangıç Tarihi"
+
+#. module: hr_employee_shift
+#. odoo-python
+#: code:addons/hr_employee_shift/models/hr_shift_schedule.py:0
+#, python-format
+msgid "Start date should be less than end date."
+msgstr "Başlangıç tarihi bitiş tarihinden önce olmalıdır."
+
+#. module: hr_employee_shift
+#: model:ir.model.fields,help:hr_employee_shift.field_hr_shift_schedule__start_date
+msgid "Starting date for the shift"
+msgstr "Vardiyanın başlangıç tarihi"
+
+#. module: hr_employee_shift
+#. odoo-python
+#: code:addons/hr_employee_shift/models/hr_shift_schedule.py:0
+#, python-format
+msgid "The dates may not overlap with one another."
+msgstr "Tarihler birbiriyle çakışmamalıdır."
+
+#. module: hr_employee_shift
+#. odoo-python
+#: code:addons/hr_employee_shift/models/resource_calendar.py:0
+#, python-format
+msgid "Thursday Morning"
+msgstr "Perşembe Sabahı"
+
+#. module: hr_employee_shift
+#. odoo-python
+#: code:addons/hr_employee_shift/models/resource_calendar.py:0
+#, python-format
+msgid "Tuesday Morning"
+msgstr "Salı Sabahı"
+
+#. module: hr_employee_shift
+#. odoo-python
+#: code:addons/hr_employee_shift/models/resource_calendar.py:0
+#, python-format
+msgid "Wednesday Morning"
+msgstr "Çarşamba Sabahı"
+
+#. module: hr_employee_shift
+#: model:ir.model.fields,field_description:hr_employee_shift.field_hr_employee__resource_calendar_ids
+msgid "Working Hours"
+msgstr "Çalışma Saatleri"
+
+#. module: hr_employee_shift
+#: model:ir.model.fields,field_description:hr_employee_shift.field_hr_contract__working_hours
+msgid "Working Schedule"
+msgstr "Çalışma Programı"
+
+#. module: hr_employee_shift
+#: model:ir.model.fields,help:hr_employee_shift.field_hr_contract__working_hours
+msgid "Working hours"
+msgstr "Çalışma Saatleri"
+
+#. module: hr_employee_shift
+#: model:ir.model.fields,field_description:hr_employee_shift.field_resource_calendar__attendance_ids
+msgid "Workingssss Time"
+msgstr "Çalışma Süresi"
+
+#. module: hr_employee_shift
+#: model:ir.model.fields,help:hr_employee_shift.field_hr_employee__resource_calendar_ids
+msgid "calendar ids"
+msgstr "Takvim Kimlikleri"
+
+#. module: hr_employee_shift
+#: model:ir.model,name:hr_employee_shift.model_hr_shift_generate
+msgid "hr.shift.generate"
+msgstr "İnsan Kaynakları Vardiya Oluştur"
+
+#. module: hr_employee_shift
+#: model:ir.model,name:hr_employee_shift.model_hr_shift_schedule
+msgid "hr.shift.schedule"
+msgstr "İnsan Kaynakları Vardiya Programı"
